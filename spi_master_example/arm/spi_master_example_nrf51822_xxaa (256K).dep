@@ -1,0 +1,92 @@
+Dependencies for Project 'spi_master_example', Target 'nrf51822_xxaa (256K)': (DO NOT MODIFY !)
+F (..\main.c)(0x53C3A816)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Include -I..\..\..\..\Include\sdk_soc -I..\..\..\..\Include\app_common -I..\-I "C:\Nordic Semiconductor\nRF51 SDK_v6.0.0.43681\Nordic\nrf51822\Board\nrf6310\spi_master_example\arm\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310 -DDEBUG -DSPI_MASTER_0_ENABLE -DSPI_MASTER_1_ENABLE-o .\_build\main.o --omf_browse .\_build\main.crf --depend .\_build\main.d)
+I (..\..\..\..\Include\simple_uart.h)(0x53B268B2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53465D6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53465D6C)
+I (..\..\..\..\Include\nrf_delay.h)(0x53B268A6)
+I (..\..\..\..\Include\nrf.h)(0x53B269DC)
+I (..\..\..\..\Include\nrf51.h)(0x53B269DC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0.h)(0x5368ADD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302C5F8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302C5F8)
+I (..\..\..\..\Include\system_nrf51.h)(0x53B269DC)
+I (..\..\..\..\Include\nrf51_bitfields.h)(0x53C39A03)
+I (..\..\..\..\Include\nrf51_deprecated.h)(0x53B269DC)
+I (..\..\..\..\Include\compiler_abstraction.h)(0x53B269DC)
+I (..\..\..\..\Include\nrf_gpio.h)(0x53B268A6)
+I (..\..\..\..\Include\common.h)(0x53B268A4)
+I (..\..\..\..\Include\app_common\app_error.h)(0x53C36C4D)
+I (..\..\..\..\Include\sdk_soc\nrf_error.h)(0x53B268A4)
+I (..\..\..\..\Include\sdk_soc\app_util_platform.h)(0x53B268A4)
+I (..\..\..\..\Include\spi_master.h)(0x53C387C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53465D6C)
+I (..\example_config.h)(0x53C37205)
+F (..\..\..\..\Source\keil_arm_uv4.lnt)(0x53B2684C)()
+F (RTE\Device\nRF51822_xxAA\arm_startup_nrf51.s)(0x53B0CDBE)(--cpu Cortex-M0 --li --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Nordic Semiconductor\nRF51 SDK_v6.0.0.43681\Nordic\nrf51822\Board\nrf6310\spi_master_example\arm\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include--list .\_build\arm_startup_nrf51.lst --xref -o .\_build\arm_startup_nrf51.o --depend .\_build\arm_startup_nrf51.d)
+F (RTE\Device\nRF51822_xxAA\system_nrf51.c)(0x53B0CDBE)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Include -I..\..\..\..\Include\sdk_soc -I..\..\..\..\Include\app_common -I..\-I "C:\Nordic Semiconductor\nRF51 SDK_v6.0.0.43681\Nordic\nrf51822\Board\nrf6310\spi_master_example\arm\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310 -DDEBUG -DSPI_MASTER_0_ENABLE -DSPI_MASTER_1_ENABLE-o .\_build\system_nrf51.o --omf_browse .\_build\system_nrf51.crf --depend .\_build\system_nrf51.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53465D6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53465D6C)
+I (..\..\..\..\Include\nrf.h)(0x53B269DC)
+I (..\..\..\..\Include\nrf51.h)(0x53B269DC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0.h)(0x5368ADD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302C5F8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302C5F8)
+I (..\..\..\..\Include\system_nrf51.h)(0x53B269DC)
+I (..\..\..\..\Include\nrf51_bitfields.h)(0x53C39A03)
+I (..\..\..\..\Include\nrf51_deprecated.h)(0x53B269DC)
+I (..\..\..\..\Include\compiler_abstraction.h)(0x53B269DC)
+F (RTE\Device\nRF51822_xxAB\arm_startup_nrf51.s)(0x53B0CDBE)()
+F (RTE\Device\nRF51822_xxAB\system_nrf51.c)(0x53B0CDBE)()
+F (..\..\..\..\Source\spi_master\spi_master.c)(0x53C3698C)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Include -I..\..\..\..\Include\sdk_soc -I..\..\..\..\Include\app_common -I..\-I "C:\Nordic Semiconductor\nRF51 SDK_v6.0.0.43681\Nordic\nrf51822\Board\nrf6310\spi_master_example\arm\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310 -DDEBUG -DSPI_MASTER_0_ENABLE -DSPI_MASTER_1_ENABLE-o .\_build\spi_master.o --omf_browse .\_build\spi_master.crf --depend .\_build\spi_master.d)
+I (..\..\..\..\Source\spi_master\app_error.h)(0x53B268A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53465D6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53465D6C)
+I (..\..\..\..\Source\spi_master\nrf_error.h)(0x53B268A4)
+I (..\..\..\..\Include\nrf_gpio.h)(0x53B268A6)
+I (..\..\..\..\Include\nrf51.h)(0x53B269DC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0.h)(0x5368ADD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302C5F8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302C5F8)
+I (..\..\..\..\Include\system_nrf51.h)(0x53B269DC)
+I (..\..\..\..\Include\nrf51_bitfields.h)(0x53C39A03)
+I (..\..\..\..\Source\spi_master\nrf_soc.h)(0x53B268A4)
+I (..\..\..\..\Include\spi_master.h)(0x53C387C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53465D6C)
+F (..\..\..\..\Source\nrf_delay\nrf_delay.c)(0x53B26846)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Include -I..\..\..\..\Include\sdk_soc -I..\..\..\..\Include\app_common -I..\-I "C:\Nordic Semiconductor\nRF51 SDK_v6.0.0.43681\Nordic\nrf51822\Board\nrf6310\spi_master_example\arm\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310 -DDEBUG -DSPI_MASTER_0_ENABLE -DSPI_MASTER_1_ENABLE-o .\_build\nrf_delay.o --omf_browse .\_build\nrf_delay.crf --depend .\_build\nrf_delay.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53465D6C)
+I (..\..\..\..\Include\compiler_abstraction.h)(0x53B269DC)
+I (..\..\..\..\Include\nrf.h)(0x53B269DC)
+I (..\..\..\..\Include\nrf51.h)(0x53B269DC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0.h)(0x5368ADD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53465D6C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302C5F8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302C5F8)
+I (..\..\..\..\Include\system_nrf51.h)(0x53B269DC)
+I (..\..\..\..\Include\nrf51_bitfields.h)(0x53C39A03)
+I (..\..\..\..\Include\nrf51_deprecated.h)(0x53B269DC)
+I (..\..\..\..\Include\nrf_delay.h)(0x53B268A6)
+F (..\..\..\..\Source\sdk_soc\nrf_soc.c)(0x53B2689C)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Include -I..\..\..\..\Include\sdk_soc -I..\..\..\..\Include\app_common -I..\-I "C:\Nordic Semiconductor\nRF51 SDK_v6.0.0.43681\Nordic\nrf51822\Board\nrf6310\spi_master_example\arm\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310 -DDEBUG -DSPI_MASTER_0_ENABLE -DSPI_MASTER_1_ENABLE-o .\_build\nrf_soc.o --omf_browse .\_build\nrf_soc.crf --depend .\_build\nrf_soc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53465D6C)
+I (..\..\..\..\Source\sdk_soc\nrf_soc.h)(0x53B268A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53465D6C)
+I (..\..\..\..\Include\nrf51.h)(0x53B269DC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0.h)(0x5368ADD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302C5F8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302C5F8)
+I (..\..\..\..\Include\system_nrf51.h)(0x53B269DC)
+I (..\..\..\..\Source\sdk_soc\nrf_error.h)(0x53B268A4)
+F (..\..\..\..\Source\simple_uart\simple_uart.c)(0x53BE3B33)(--c99 -c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\..\..\..\Include -I..\..\..\..\Include\sdk_soc -I..\..\..\..\Include\app_common -I..\-I "C:\Nordic Semiconductor\nRF51 SDK_v6.0.0.43681\Nordic\nrf51822\Board\nrf6310\spi_master_example\arm\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_NRF6310 -DDEBUG -DSPI_MASTER_0_ENABLE -DSPI_MASTER_1_ENABLE-o .\_build\simple_uart.o --omf_browse .\_build\simple_uart.crf --depend .\_build\simple_uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53465D6C)
+I (..\..\..\..\Include\nrf.h)(0x53B269DC)
+I (..\..\..\..\Include\nrf51.h)(0x53B269DC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0.h)(0x5368ADD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302C5F8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302C5F8)
+I (..\..\..\..\Include\system_nrf51.h)(0x53B269DC)
+I (..\..\..\..\Include\nrf51_bitfields.h)(0x53C39A03)
+I (..\..\..\..\Include\nrf51_deprecated.h)(0x53B269DC)
+I (..\..\..\..\Include\compiler_abstraction.h)(0x53B269DC)
+I (..\..\..\..\Include\simple_uart.h)(0x53B268B2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53465D6C)
+I (..\..\..\..\Include\nrf_delay.h)(0x53B268A6)
+I (..\..\..\..\Include\nrf_gpio.h)(0x53B268A6)

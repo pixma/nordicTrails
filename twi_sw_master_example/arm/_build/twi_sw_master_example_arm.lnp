@@ -1,0 +1,12 @@
+--cpu Cortex-M0
+".\_build\main.o"
+".\_build\arm_startup_nrf51.o"
+".\_build\system_nrf51.o"
+".\_build\twi_sw_master.o"
+".\_build\ds1624.o"
+".\_build\synaptics_touchpad.o"
+".\_build\nrf_delay.o"
+--strict --scatter ".\_build\twi_sw_master_example_arm.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\_build\twi_sw_master_example_arm.map" -o .\_build\twi_sw_master_example_arm.axf

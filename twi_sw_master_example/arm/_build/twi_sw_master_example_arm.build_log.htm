@@ -1,0 +1,126 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Nordic Semiconductor\nRF51 SDK_v6.0.0.43681\Nordic\nrf51822\Board\nrf6310\twi_sw_master_example\arm\twi_sw_master_example.uvprojx
+Project File Date:  07/09/2014
+
+<h2>Output:</h2>
+Build target 'nrf51822_xxaa (256K)'
+creating preprocessor file for main.c...
+compiling main.c...
+creating preprocessor file for twi_sw_master.c...
+compiling twi_sw_master.c...
+creating preprocessor file for synaptics_touchpad.c...
+compiling synaptics_touchpad.c...
+linking...
+Program Size: Code=2306 RO-data=226 RW-data=8 ZI-data=4192  
+FromELF: creating hex file...
+".\_build\twi_sw_master_example_arm.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.1.1.pack
+                ARM::CMSIS:CORE:3.30.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.30.0
+
+Package Vendor: NordicSemiconductor
+                http://www.keil.com/pack/NordicSemiconductor.nRF_DeviceFamilyPack.1.1.1.pack
+                NordicSemiconductor::Device:Startup:1.0.0
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Nordic Semiconductor\nRF51 SDK_v6.0.0.43681\Nordic\nrf51822\Board\nrf6310\twi_sw_master_example\arm\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.30.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+
+   * Component: NordicSemiconductor::Device:Startup:1.0.0
+      Source file:   Device\Source\arm\arm_startup_nrf51.s
+      Source file:   Device\Source\system_nrf51.c
+      Include file:  Device\Include\system_nrf51.h
+</pre>
+</body>
+</html>
+R" is undefined
+      if (TWI_SDA_READ() == 1 && TWI_SCL_READ() == 1)
+..\..\..\..\Source\twi_master\twi_sw_master.c(213): error:  #20: identifier "TWI_MASTER_CONFIG_DATA_PIN_NUMBER" is undefined
+      TWI_SDA_HIGH();
+..\..\..\..\Source\twi_master\twi_sw_master.c(220): error:  #20: identifier "TWI_MASTER_CONFIG_DATA_PIN_NUMBER" is undefined
+      TWI_SDA_LOW();
+..\..\..\..\Source\twi_master\twi_sw_master.c(224): error:  #20: identifier "TWI_MASTER_CONFIG_CLOCK_PIN_NUMBER" is undefined
+      TWI_SCL_LOW();
+..\..\..\..\Source\twi_master\twi_sw_master.c(286): error:  #20: identifier "TWI_MASTER_CONFIG_DATA_PIN_NUMBER" is undefined
+      TWI_SDA_LOW();
+..\..\..\..\Source\twi_master\twi_sw_master.c(293): error:  #20: identifier "TWI_MASTER_CONFIG_DATA_PIN_NUMBER" is undefined
+      TWI_SDA_HIGH();
+..\..\..\..\Source\twi_master\twi_sw_master.c(318): error:  #20: identifier "TWI_MASTER_CONFIG_DATA_PIN_NUMBER" is undefined
+      TWI_SDA_OUTPUT();
+..\..\..\..\Source\twi_master\twi_sw_master.c(323): error:  #20: identifier "TWI_MASTER_CONFIG_CLOCK_PIN_NUMBER" is undefined
+          TWI_SCL_LOW();
+..\..\..\..\Source\twi_master\twi_sw_master.c(328): error:  #20: identifier "TWI_MASTER_CONFIG_DATA_PIN_NUMBER" is undefined
+              TWI_SDA_HIGH();
+..\..\..\..\Source\twi_master\twi_sw_master.c(332): error:  #20: identifier "TWI_MASTER_CONFIG_DATA_PIN_NUMBER" is undefined
+              TWI_SDA_LOW();
+..\..\..\..\Source\twi_master\twi_sw_master.c(343): error:  #20: identifier "TWI_MASTER_CONFIG_CLOCK_PIN_NUMBER" is undefined
+      TWI_SCL_LOW();
+..\..\..\..\Source\twi_master\twi_sw_master.c(349): error:  #20: identifier "TWI_MASTER_CONFIG_DATA_PIN_NUMBER" is undefined
+      TWI_SDA_INPUT();
+..\..\..\..\Source\twi_master\twi_sw_master.c(359): error:  #20: identifier "TWI_MASTER_CONFIG_DATA_PIN_NUMBER" is undefined
+      transfer_succeeded &= !(TWI_SDA_READ());
+..\..\..\..\Source\twi_master\twi_sw_master.c(363): error:  #20: identifier "TWI_MASTER_CONFIG_CLOCK_PIN_NUMBER" is undefined
+      TWI_SCL_LOW();
+..\..\..\..\Source\twi_master\twi_sw_master.c(393): error:  #20: identifier "TWI_MASTER_CONFIG_DATA_PIN_NUMBER" is undefined
+      TWI_SDA_INPUT();
+..\..\..\..\Source\twi_master\twi_sw_master.c(406): error:  #20: identifier "TWI_MASTER_CONFIG_DATA_PIN_NUMBER" is undefined
+          if (TWI_SDA_READ())
+..\..\..\..\Source\twi_master\twi_sw_master.c(415): error:  #20: identifier "TWI_MASTER_CONFIG_CLOCK_PIN_NUMBER" is undefined
+          TWI_SCL_LOW();
+..\..\..\..\Source\twi_master\twi_sw_master.c(420): error:  #20: identifier "TWI_MASTER_CONFIG_DATA_PIN_NUMBER" is undefined
+      TWI_SDA_OUTPUT();
+..\..\..\..\Source\twi_master\twi_sw_master.c(430): error:  #20: identifier "TWI_MASTER_CONFIG_DATA_PIN_NUMBER" is undefined
+          TWI_SDA_LOW();
+..\..\..\..\Source\twi_master\twi_sw_master.c(434): error:  #20: identifier "TWI_MASTER_CONFIG_DATA_PIN_NUMBER" is undefined
+          TWI_SDA_HIGH();
+..\..\..\..\Source\twi_master\twi_sw_master.c(448): error:  #20: identifier "TWI_MASTER_CONFIG_CLOCK_PIN_NUMBER" is undefined
+      TWI_SCL_LOW();
+..\..\..\..\Source\twi_master\twi_sw_master.c: 0 warnings, 30 errors
+".\_build\twi_sw_master_example_arm.axf" - 30 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.1.1.pack
+                ARM::CMSIS:CORE:3.30.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.30.0
+
+Package Vendor: NordicSemiconductor
+                http://www.keil.com/pack/NordicSemiconductor.nRF_DeviceFamilyPack.1.1.1.pack
+                NordicSemiconductor::Device:Startup:1.0.0
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Nordic Semiconductor\nRF51 SDK_v6.0.0.43681\Nordic\nrf51822\Board\nrf6310\twi_sw_master_example\arm\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.30.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+
+   * Component: NordicSemiconductor::Device:Startup:1.0.0
+      Source file:   Device\Source\arm\arm_startup_nrf51.s
+      Source file:   Device\Source\system_nrf51.c
+      Include file:  Device\Include\system_nrf51.h
+Target not created

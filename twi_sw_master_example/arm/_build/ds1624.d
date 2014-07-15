@@ -1,0 +1,16 @@
+.\_build\ds1624.o: ..\..\..\..\Source\ext_sensors\ds1624\ds1624.c
+.\_build\ds1624.o: ..\..\..\..\Include\ext_sensors\ds1624.h
+.\_build\ds1624.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
+.\_build\ds1624.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\_build\ds1624.o: ..\..\..\..\Include\twi_master.h
+.\_build\ds1624.o: ..\..\..\..\Include\nrf_delay.h
+.\_build\ds1624.o: ..\..\..\..\Include\nrf.h
+.\_build\ds1624.o: ..\..\..\..\Include\nrf51.h
+.\_build\ds1624.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0.h
+.\_build\ds1624.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h
+.\_build\ds1624.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h
+.\_build\ds1624.o: ..\..\..\..\Include\system_nrf51.h
+.\_build\ds1624.o: ..\..\..\..\Include\nrf51_bitfields.h
+.\_build\ds1624.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0.h
+.\_build\ds1624.o: ..\..\..\..\Include\nrf51_deprecated.h
+.\_build\ds1624.o: ..\..\..\..\Include\compiler_abstraction.h
