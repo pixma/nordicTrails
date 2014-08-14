@@ -544,6 +544,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\..\..\Source\sdk_soc\nrf_soc.c</FilePath>
             </File>
+            <File>
+              <FileName>simple_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\Source\simple_uart\simple_uart.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1088,6 +1093,11 @@
               <FileName>nrf_soc.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\Source\sdk_soc\nrf_soc.c</FilePath>
+            </File>
+            <File>
+              <FileName>simple_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\Source\simple_uart\simple_uart.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1634,6 +1644,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\..\..\Source\sdk_soc\nrf_soc.c</FilePath>
             </File>
+            <File>
+              <FileName>simple_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\Source\simple_uart\simple_uart.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -2178,6 +2193,11 @@
               <FileName>nrf_soc.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\Source\sdk_soc\nrf_soc.c</FilePath>
+            </File>
+            <File>
+              <FileName>simple_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\Source\simple_uart\simple_uart.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -2724,6 +2744,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\..\..\Source\sdk_soc\nrf_soc.c</FilePath>
             </File>
+            <File>
+              <FileName>simple_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\Source\simple_uart\simple_uart.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -3268,6 +3293,11 @@
               <FileName>nrf_soc.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\Source\sdk_soc\nrf_soc.c</FilePath>
+            </File>
+            <File>
+              <FileName>simple_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\Source\simple_uart\simple_uart.c</FilePath>
             </File>
           </Files>
         </Group>
